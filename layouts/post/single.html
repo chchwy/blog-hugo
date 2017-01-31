@@ -5,13 +5,26 @@
 </head>
 <body lang="zh-TW">
 <div class="container">
+  <br><br>
+  <div class="row">
+    <div class="three columns">
+      {{ partial "sidebar.html" .}}
+    </div>
+  <div class="nine columns">
   <h1 class="post-title">{{ .Title }}</h1>
-  <hr>
-  <time class="post-date">{{ .Date.Format "2006-01-02" }}</time>
+  <hr style="margin-top: 0; border-top: 1px solid #B6B2B2;">
+  
     <section id="main">
       {{ .Content }}
+
+      Posted date: <time class="post-date">{{ .Date.Format "2006-01-02" }}</time>
+      <hr>
       {{ template "_internal/disqus.html" . }}
     </section>
+
+ </div>
+</div>
+  <p style="font-size: 0.7em; text-align: center;">&copy; 2017. All rights reserved.</p>
 </div>
 {{ partial "analytics.html" . }}
 </body>
