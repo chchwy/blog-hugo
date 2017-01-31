@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
-    {{ partial "head.html" . }}
+  {{ partial "head.html" . }}
 </head>
-<body>
+<body lang="zh-TW">
 <div class="container">
+  <br><br>
+  <div class="row">
+    <div class="three columns">
+      {{ partial "sidebar.html" .}}
+    </div>
+  <div class="nine columns">
   <h1 class="page-title">{{ .Title }}</h1>
   <hr>
   <section id="main">
     {{ .Content }}
   </section>
-
+  </div>
 </div>
+  <p style="font-size: 0.7em; text-align: center;">&copy; 2017. All rights reserved.</p>
 {{ partial "analytics.html" . }}
+</div>
 </body>
 <html>

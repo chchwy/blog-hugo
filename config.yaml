@@ -6,7 +6,7 @@ languageCode: zh-TW
 #permalinks:
 #  post:  /:year/:month/:filename/
 
-title: "- 調和的靈感"
+title: "調和的靈感"
 
 params:
   Subtitle:   "{ chchwy, Matt }"
