@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body lang="zh-TW">
+<div class="container">
+  <h1 class="post-title">{{ .Title }}</h1>
+  <hr>
+  <time class="post-date">{{ .Date.Format "2006-01-02" }}</time>
+    <section id="main">
+      {{ .Content }}
+      {{ template "_internal/disqus.html" . }}
+    </section>
+</div>
+{{ partial "analytics.html" . }}
+</body>
+<html>

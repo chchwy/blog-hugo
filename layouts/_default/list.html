@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body lang="zh-TW" class="theme-base-10">
+<div class="content container">
+  <h1>Tags:</h1>
+  <section id="main">
+    <ul class="archives">
+      {{ range .Data.Pages }}
+      <li>
+        <span class="list-date">{{ .Date.Format "2006 Jan 02" }}</span> » &nbsp;
+        <a href="{{ .Permalink }}">{{ .Title }}</a>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+
+</div>
+{{ partial "analytics.html" . }}
+</body>
+<html>

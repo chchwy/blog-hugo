@@ -1,0 +1,40 @@
+
+<meta charset="utf-8">
+<base href="{{ .Site.BaseURL }}">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Enable responsiveness on mobile devices-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<title> {{ .Site.Title }} </title>
+<link rel="canonical" href="{{ .Permalink }}">
+
+<!-- CSS -->
+<link rel="stylesheet" href="/css/normalize.css">
+<link rel="stylesheet" href="/css/skeleton.css">
+
+<!-- Icons -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="">
+<link rel="shortcut icon" href="public/favicon.ico">
+
+<!-- Font -->
+<!--  <link href='//fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'> -->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+<!-- RSS -->
+<link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+
+<style>
+
+.list-date { font-family: monospace; }
+.site-title { font-size:2em; }
+.site-title a { color: black; text-decoration: none; }
+.nav ul { list-style-type: circle; padding-left: 1em;  }
+.nav li a { color: black; text-decoration: none; }
+
+.post-title {font-size: 2em;}
+</style>
+
+
+
