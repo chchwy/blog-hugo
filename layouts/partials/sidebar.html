@@ -1,12 +1,16 @@
 <h1 class="site-title">
   <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a>
 </h1>
-<!--
-<p class="lead">{{ .Site.Params.Subtitle }}</p>
--->
 <nav class="nav">
   <ul>
-  <li><a class="nav-item" href="/about">- 關於我</a></li>
-  <!-- <a class="sidebar-nav-item" href="/archives">Archives <i class="fa fa-bars fa-fw"></i></a> -->
+    <li><a class="nav-item" href="/about">{{ .Site.Params.Subtitle }}</a></li>
   </ul>
+  
+{{ if isset .Params.showtags }}
+<ul id="all-tags">
+  {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+    <li><a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a></li>
+  {{ end }}
+</ul>
+{{ end }}
 </nav>

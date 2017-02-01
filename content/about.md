@@ -1,6 +1,7 @@
 ---
 date: "1984-01-01"
 title: About me
+showtags: "good"
 ---
 
 Hi, 我是 Matt (chchwy)，軟體工程師。
