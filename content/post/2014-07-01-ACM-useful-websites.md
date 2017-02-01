@@ -6,13 +6,13 @@ tags: [C++, UVa Oneline Judge]
 
 收錄一些解題過程中幫助我很多的網站，以 UVa Online Judge 為主。
 
-![Flickr from https://www.flickr.com/photos/riebart/4466482623](/img/4466482623_6aea29d90a_z.jpg)
+![Flickr https://www.flickr.com/photos/riebart/4466482623](/img/4466482623_6aea29d90a_z.jpg)
 
-首先必推薦的站點是 [UVa官方論壇](http://acm.uva.es/board/) ，全世界 UVa 解題者的集散地。我解不出題目時，第一反應就是來這裡搜尋該題號，只要找到該題專屬的討論串，通常能找到很多好心人的測試數據和關鍵提示。
+首先必推薦的站點是[UVa官方論壇][0]，全世界 UVa 解題者的集散地。我解不出題目時，第一反應就是來這裡搜尋該題號，只要找到該題專屬的討論串，通常能找到很多好心人的測試數據和關鍵提示。
 
-再來是 [Methods to Solve]( http://www.comp.nus.edu.sg/~stevenha/programming/acmoj.html ) ，大概是全世界最大的 UVa 解題提示網站了吧，收錄的題目數量很多，提示品質也不錯。
+再來是 [Methods to Solve][1]，大概是全世界最大的 UVa 解題提示網站了，收錄的題目數量很多，提示品質也不錯。
 
-[uHunt](http://uhunt.felix-halim.net/) 是我最近常用的工具網頁，只要打上 UVa id，就可以看見自己的解題紀錄和一些統計數據，還有推薦的解題方向，題號快速搜尋題目等等，非常好用。
+[uHunt][2] 是追蹤個人解題狀態的工具網頁，打上 UVa id 就可以看見自己的解題紀錄和統計數據，還有推薦的解題方向，題號快速搜尋題目等等，非常好用。
 
 再提供一個比對數據的工具網頁 [UVa Toolkit](http://uvatoolkit.com/problemssolve.php)，簡單講--餵它吃輸入數據，吐出對應輸出。通常可以有效釐清題意，彌補題目頁上的過份簡陋的示範數據。
 
@@ -50,3 +50,8 @@ tags: [C++, UVa Oneline Judge]
 - [Morris' Blog](http://morris821028.github.io/categories/%E8%A7%A3%E9%A1%8C%E5%8D%80/%E8%A7%A3%E9%A1%8C%E5%8D%80-UVa/)
 - [Nothing is Everything](http://new-acos.blogspot.com/search/label/ACM): 少量UVa解答，品質不錯。
 - [朱色虫居](http://redbug0314.blogspot.tw/search/label/ACM): 少量UVa解答，品質不錯。
+
+
+[0]: http://acm.uva.es/board/ "UVa Official forum"
+[1]: http://www.comp.nus.edu.sg/~stevenha/programming/acmoj.html "Methods to solve"
+[2]: http://uhunt.felix-halim.net/ "uHunt"
