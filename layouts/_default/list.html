@@ -1,33 +1,19 @@
-<!DOCTYPE html>
-<html lang="zh-TW">
-<head>
-  {{ partial "head.html" . }}
-</head>
-<body lang="zh-TW">
-<div class="container">
-  
-  <div style="margin-top: 3em;"></div>
-
-  <div class="row">
-    <div class="three columns">
-      {{ partial "sidebar.html" .}}
-    </div>
-  <div class="nine columns">
-  <h2>Tags: {{ .Title }}</h2>
-  <section id="main">
-    <ul class="archives">
-      {{ range .Data.Pages }}
-      <li>
-        <span class="list-date">{{ .Date.Format "2006 Jan 02" }}</span> » &nbsp;
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
-      </li>
-      {{ end }}
+{{ partial "header" . }}
+{{ partial "nav" . }}
+<section class="section">
+  <div class="container">
+    <ul style="line-height: 2.3em;">
+    {{ range where .Site.Pages "Type" "post" }}
+    <li>
+      <span class="subtitle" style="font-family: Menlo, Consolas, Monaco, Courier New, monospace;">
+        {{ .Date.Format "2006-Jan-02" }}
+      </span> » &nbsp;
+      <a href="{{ .Permalink }}" style="font-size: 18px;">
+        {{ .Title }}
+      </a>
+    </li>
+    {{ end }}
     </ul>
-  </section>
   </div>
-</div>
-  <p style="font-size: 0.7em; text-align: center;">&copy; 2017. All rights reserved.</p>
-{{ partial "analytics.html" . }}
-</div>
-</body>
-<html>
+</section>
+{{ partial "footer" . }}

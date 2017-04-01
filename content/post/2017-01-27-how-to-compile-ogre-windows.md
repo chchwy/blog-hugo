@@ -1,3 +1,8 @@
+---
+date: 2017-04-02
+title: Ogre 2.1 編譯指南 (Windows篇)
+draft: true
+---
 # Ogre 2.1 編譯指南 (Windows篇)
 本文紀錄我在 Windows 平台編譯 Ogre 2.1 版的步驟。老牌 3D 渲染引擎 Ogre 的 2.1 版，主要的賣點是支援的 PBS (Physically based rendering)以及效能大幅提昇。但是同時也因為架構翻新，所以網路上的大多教學都過時了。
 
