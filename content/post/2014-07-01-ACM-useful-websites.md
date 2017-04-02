@@ -6,7 +6,7 @@ tags: [C++, UVa Oneline Judge]
 
 收錄一些解題過程中幫助我很多的網站，以 UVa Online Judge 為主。
 
-![Flickr https://www.flickr.com/photos/riebart/4466482623](/img/4466482623_6aea29d90a_z.jpg)
+![Code](/img/code-1839406_1280.jpg)
 
 首先必推薦的站點是[UVa官方論壇][0]，全世界 UVa 解題者的集散地。我解不出題目時，第一反應就是來這裡搜尋該題號，只要找到該題專屬的討論串，通常能找到很多好心人的測試數據和關鍵提示。
 

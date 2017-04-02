@@ -12,7 +12,7 @@ tags: [Jekyll]
 
 所以當我看見 [Github Pages][2] 時眼睛一亮，馬上就發覺這就是我想要的博客系統:
 
-![Flickr from http://www.flickr.com/photos/39553261@N08/](/img/4059882973_f5f33b1eff.jpg)
+![Dawn](/img/kumamoto-542410_1280.jpg)
 
 首先，Github Pages 給予我完全控制頁面的權力，省卻了管理主機的麻煩。
 Github本身作為全球性的代碼託管服務商，不需要擔心服務品質。
