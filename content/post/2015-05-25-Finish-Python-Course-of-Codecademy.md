@@ -15,6 +15,6 @@ Codecademy 課程的優點就是強迫學習者動手敲代碼。Codecademy 的�
 
 順便推薦一篇老文章[「學會開放性思維」][0]，這是啟發我對 Python 關注的起點。
 
-[0]: http://forum.2025.tw/archiver/?tid-324.html
+[0]: https://www.evernote.com/shard/s15/sh/75622311-fa01-4184-8bd1-21a01216b5d9/173cc5bf2b21effd4906fdcd048d7646
 [1]: http://www.diveintopython3.net/
 [2]: http://www.codecademy.com/en/tracks/python

@@ -2,11 +2,12 @@
 date: "2015-06-20"
 title: "客製化 Visual C++ clean project 的行為"
 tags: [ "Visual Studio" ]
+isCJKLanguage： "true"
 ---
 
 昨天花了一點時間研究一下，Visual C++ 該怎麼客製 Clean 的行為。
 
-簡單講，我想要在按下 Clean Project 的時候，請 VS 「順便」幫我刪掉幾個目錄。說是順便但是其實不太容易，因為像 Build 這個行為，在專案設定頁有明確的 Pre-build Event 或 Post-build Event 可以掛上額外的工作，但是 Clean 行為就沒有相關的掛勾。至少 Visual Studio 並沒有 UI 可以直接操作。
+簡單講，我想要在按下 Clean Project 的時候，請 Visual Studio 「順便」幫我刪掉幾個目錄。說是順便但是其實不太容易，因為像 Build Project 這個動作，在專案設定頁有 Pre-build Event 和 Post-build Event 可以掛上額外的工作，但是 Clean 在專案設定裡就沒有相關的掛勾。至少 Visual Studio 並沒有 UI 可以直接操作。
 
 ## 研究 .vcxproj
 
