@@ -3,6 +3,7 @@ date: 2011-01-30
 title: "讀書心得 - Effective C++ 3/e"
 tags: [ C++, Book ]
 draft: true
+isCJKLanguage: true
 ---
 
 <a href="http://www.anobii.com/books/Effective_C_3e%E4%B8%AD%E6%96%87%E7%89%88/9789861543550/013a64b5e54ffd2279/" class="book-cover" title="More about Effective C++ 3/e中文版"><img alt="More about Effective C++ 3/e中文版" height="200" src="http://image.anobii.com/anobi/image_book.php?type=5&amp;item_id=013a64b5e54ffd2279&amp;time=1296528089" title="More about Effective C++ 3/e中文版" width="180" /></a>

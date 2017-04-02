@@ -2,6 +2,7 @@
 date: 2012-12-16
 title: "博客當如駭客 - Github Pages & Jekyll"
 tags: [Jekyll]
+isCJKLanguage: true
 ---
 
 ## 為什麼要用 Github Pages?

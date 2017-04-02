@@ -2,7 +2,7 @@
 date: "2015-06-20"
 title: "客製化 Visual C++ clean project 的行為"
 tags: [ "Visual Studio" ]
-isCJKLanguage： "true"
+isCJKLanguage: true
 ---
 
 昨天花了一點時間研究一下，Visual C++ 該怎麼客製 Clean 的行為。

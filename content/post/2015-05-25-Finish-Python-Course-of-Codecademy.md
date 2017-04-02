@@ -2,6 +2,7 @@
 date: 2015-05-25
 title: 完成 Codecademy 的 Python 課程
 tags: [Python, Codecademy]
+isCJKLanguage: true
 ---
 其實已經完成一陣子了(茶)
 

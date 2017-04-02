@@ -2,6 +2,7 @@
 date: "2016-03-08"
 title: ACM-IO-Redirection
 draft: true
+isCJKLanguage: true
 ---
 
 做 ACM 題目的時候，一個困擾我的問題就是該怎麼輸入測試資料。尤其某些測試數據數量龐大，光是用手打就覺得心煩。我這邊提供一個解法，透過檔案的方式
