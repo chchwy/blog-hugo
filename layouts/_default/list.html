@@ -2,18 +2,27 @@
 {{ partial "nav" . }}
 <section class="section">
   <div class="container">
-    <ul style="line-height: 2.3em;">
-    {{ range where .Site.Pages "Type" "post" }}
-    <li>
-      <span class="subtitle" style="font-family: Menlo, Consolas, Monaco, Courier New, monospace;">
-        {{ .Date.Format "2006-Jan-02" }}
-      </span> » &nbsp;
-      <a href="{{ .Permalink }}" style="font-size: 18px;">
-        {{ .Title }}
-      </a>
-    </li>
+    {{ range sort .Paginator.Pages }}
+    <article>
+      <h1 class="title"><a href="{{ .Permalink }}">{{ .Title }}</a>{{ if .Draft }} ::Draft{{ end }}</h1>
+      <h2 class="subtitle is-5">{{ .Date.Format "January 2, 2006" }}</h2>
+      {{ if .Params.tags }}
+        {{ partial "tags" .Params.tags }}
+      {{ end }}
+      <div class="content">
+        {{ .Summary | plainify | safeHTML }}
+        {{ if .Truncated }}
+        ...<a class="button is-link" href="{{ .Permalink }}" style="height:28px">
+          Read more
+          <span class="icon is-small">
+            <i class="fa fa-angle-double-right"></i>
+          </span>
+        </a>
+        {{ end }}
+      </div>
+    </article>
     {{ end }}
-    </ul>
   </div>
 </section>
+{{ partial "pager" . }}
 {{ partial "footer" . }}
