@@ -2,7 +2,7 @@
 date: 2013-12-23
 title: 'Objective-C 好用的 nil 和變數類型的思考'
 tags: ["Objective-C"]
-isCJKLanguage: "true"
+isCJKLanguage: true
 ---
 
 Objective-C 裡有個我非常喜愛的特性，就是對空物件 nil 調用方法不會出錯。
