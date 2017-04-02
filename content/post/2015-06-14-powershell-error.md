@@ -4,7 +4,7 @@ title: "「Powershell 檔案無法載入，因為這個系統上已停用指令�
 tags: [ PowerShell ]
 ---
 
-這是第一次寫 PowerShell 必然會碰到的錯誤，原因也很簡單，因為 Windows 7/8 默認情況下禁止用戶執行任何 PowerShell Script 檔案(.ps1) ，大概是怕用戶不小心執行了來路不明的檔案。
+第一次寫 PowerShell 的新朋友們必然會碰到的錯誤，原因也很簡單，因為 Windows 7/8 在默認情況下禁止執行任何 PowerShell 檔案(.ps1)，用手打指令是可以的，但是寫成檔案就不行，大概是怕用戶不小心執行了來路不明的檔案。
 
 手動打開權限的作法如下：
 

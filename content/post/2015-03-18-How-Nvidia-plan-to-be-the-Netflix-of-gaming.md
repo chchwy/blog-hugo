@@ -1,6 +1,6 @@
 ---
 date: 2015-03-18
-title: "[翻譯] Nvidia 打算成為遊戲界的 Netflix"
+title: "翻譯: Nvidia 打算成為遊戲界的 Netflix"
 Tags: [Games, 翻譯]
 ---
 
@@ -12,7 +12,7 @@ Tags: [Games, 翻譯]
 
 遊戲主機廣受大家歡迎，但是主機依賴的資料保存體 DVD 和硬體設備卻很容易過時。這個名叫「Shield」的 Nvidia 的新型娛樂系統，採取了數種軟硬體手段，想盡辦法在最短的延遲下，遞送運行在遠端的超級電腦上的遊戲。理論上避免了玩家每隔一兩年就要重買一台新的，運算能力更強的遊戲主機的必要。
 
-![Imgur-Shield-Console](http://i.imgur.com/5q4242M.jpg)
+![Shield-Console](/img/nvidia-shield.jpg)
 
 本週舊金山 GDC 的記者招待會上，Nvidia CEO 黃仁勳宣布 Shield 甚至更進一步加速了高解析度串流遊戲，他說「從我按下按鈕到畫面出現反應，只需要不到 150 毫秒。」這已經相當接近於在 PS 或者 XBox 上玩 DVD 遊戲片的表現了。
 
