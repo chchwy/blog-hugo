@@ -3,6 +3,7 @@ date: 2010-12-21
 title: "讀書心得 - Just for Fun, Linux 創始人托瓦茲自傳"
 tags: [ Book, Linux ]
 isCJKLanguage: true
+slug: "2010-12-21-just-for-fun-linux-review"
 ---
 
 <a href="http://www.anobii.com/books/Just_for_Fun/9789574761234/0163a0d1f1ef6809f2/" title="More about Just for Fun"><img alt="More about Just for Fun" src="http://image.anobii.com/anobi/image_book.php?type=5&amp;item_id=0163a0d1f1ef6809f2&amp;time=0" title="More about Just for Fun" class="left" /></a>
