@@ -5,15 +5,18 @@ draft: true
 isCJKLanguage: true
 ---
 # Ogre 2.1 編譯指南 (Windows篇)
-本文紀錄我在 Windows 平台編譯 Ogre 2.1 版的步驟。老牌 3D 渲染引擎 Ogre 的 2.1 版，主要的賣點是支援的 PBS (Physically based rendering)以及效能大幅提昇。但是同時也因為架構翻新，所以網路上的大多教學都過時了。
+本篇文章紀錄我編譯 Ogre 2.1 的詳細步驟。
 
-- 版本控制系統 hg
-- ![0000276530](\Pictures\0000276530.JPG)
+老牌的 3D 渲染引擎 Ogre3D，最近推出了 2.1 版，除了視覺效果提昇，效能也有巨大改善，很大程度擺脫了過去緩慢如牛的惡名。但是 2.1 版架構完全翻新，很多網路上大多的教學都失效了。目前官網上沒有預先編譯好的 Ogre 2.1 版 SDK 可以下載，需要自己編譯。這篇是 Windows 平台的編譯步驟，之後會另闢一篇新文章給iOS 平台。
+
+
+
+- ​
 - cmake
 - 下載 & 編譯 Ogre 外部依賴庫
 - 下載 & 編譯 Ogre 引擎
 
-## 一、安裝 CMake
+## 一、下載 Ogre source code
 
 CMake 是一套跨平台的專案建置工具，去 [CMake 官網](https://cmake.org/download/) 抓最新版來安裝。寫這篇文章的當下是 3.7.1 版。
 
