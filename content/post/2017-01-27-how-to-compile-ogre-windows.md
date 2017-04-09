@@ -5,57 +5,44 @@ draft: true
 isCJKLanguage: true
 ---
 # Ogre 2.1 編譯指南 (Windows篇)
-本篇文章紀錄我編譯 Ogre 2.1 的詳細步驟。
+老牌的開源 3D 渲染引擎 Ogre3D 最新的 2.1 版，除了視覺提昇，效能也變快。但是不知道為什麼，目前官網上只抓的到 1.9 版。想用 2.1 版的人得要自己下載源碼編譯。本篇文章就是紀錄我編譯 Ogre 2.1 的步驟。順帶一題，這是 Windows 平台的編譯步驟，之後會另寫一篇新文章講 iOS 平台。
 
-老牌的 3D 渲染引擎 Ogre3D，最近推出了 2.1 版，除了視覺效果提昇，效能也有巨大改善，很大程度擺脫了過去緩慢如牛的惡名。但是 2.1 版架構完全翻新，很多網路上大多的教學都失效了。目前官網上沒有預先編譯好的 Ogre 2.1 版 SDK 可以下載，需要自己編譯。這篇是 Windows 平台的編譯步驟，之後會另闢一篇新文章給iOS 平台。
+## 下載 Source code
 
+Ogre3D 編譯需要的 Repo 位於兩處，分別是 1. Ogre3D 引擎本體以及 2. Ogre 第三方函式庫
 
+```
+https://bitbucket.org/cabalistic/ogredeps
+https://bitbucket.org/sinbad/ogre
+```
 
-- ​
-- cmake
-- 下載 & 編譯 Ogre 外部依賴庫
-- 下載 & 編譯 Ogre 引擎
+Ogre3D 用的是一個比較少見的版本控制系統 hg，如果不熟悉這套系統可以直接下載原始碼zip包就好了，記得要抓 `v2-1` 這個分支。
 
-## 一、下載 Ogre source code
+## CMake
 
-CMake 是一套跨平台的專案建置工具，去 [CMake 官網](https://cmake.org/download/) 抓最新版來安裝。寫這篇文章的當下是 3.7.1 版。
+Ogre3D 使用 CMake 當作專案建構工具。這是我第一次用 CMake，花了一些時間才搞懂用法。用的是 [CMake 3.7.0][0]。CMake 本身不能編譯專案，但是可以在不同的平台上產生該平台的本地專案，我用的是 Windows ，所以就指定 CMake 產生 Visual Studio 2015 的專案。像在 Mac 上就是產生 Xcode 專案 。
 
-## 二、安裝 hg
+[0]: https://cmake.org/  "CMake official site"
 
-Ogre 使用的源碼版本控制系統是 hg (沒想到在這個幾乎已經被git一統天下的年代還可以看到 hg)。Windows 上常見的 hg 客戶端有 [TortoiseHG](http://tortoisehg.org/) 和 [SourceTree](https://www.sourcetreeapp.com/) ，自己撿一套來裝就可以了。
+## 編譯依賴庫  ogredeps
 
-## 三、下載 Ogre 的外部依賴庫
+編譯引擎本體之前，要先來編譯第三方依賴庫。首先打開 `CMake-gui`，CMake 的標準起手式，第一是指定源碼所在，第二是自動產生的專案位置。我的設定如下:
 
-除了引擎本體以外，Ogre 還使用了一系列的第三方庫，像是 FreeType 字體渲染，FreeImage 讀取圖檔等等。Ogre 官方很貼心的幫我們把這些第三方庫都收集在一起：
-[https://bitbucket.org/cabalistic/ogredeps](https://bitbucket.org/cabalistic/ogredeps)，用 hg 把代碼倉庫抓下來。
+[ogredeps](/img/cmake-ogredeps.png)
 
-
-    hg clone https://bitbucket.org/cabalistic/ogredeps C:/OgreSDK/ogredeps
-
-
-## 四、編譯外部依賴庫
-
-這是我第一次使用 CMake，所以花了一點時間才搞懂用法。基本上 CMake 本身不能編譯專案，而是會依據不同的平台來產生該平台上的原生專案，我用的是 Visual Studio 2015，所以指定 CMake 產生 VS2015 的專案出來。
-
-操作 CMake 的起手式是指定兩個路徑位置，第一個是源碼所在，第二是編譯的產出路徑。
-
-把第一欄指向剛剛抓下的 Ogre 外部依賴庫的根目錄，確認一下該目錄下有個檔案叫做 `CMakeList.txt` 就沒錯了。第二欄則是指定編譯完的 lib 檔的位置，依照慣例是建一個名叫 build 的子目錄。
-
-我的設定如下:
-
-https://d2mxuefqeaa7sj.cloudfront.net/s_85E8565F5205F5539CA001E4B030E59660CECE48B2BFA44493ADA6D770AD88F5_1482900112640_snipaste20161228_154111.png
+第一欄指向 ogredeps 的根目錄，該目錄下有個叫做 `CMakeList.txt`的檔案就沒錯了。第二欄則是指定所有臨時產生的檔案要放哪，包括 Visual Studio 的專案檔以及編譯完成後的 DLL 檔等等。按照慣例是在根目錄下創建一個名叫 build 的子目錄。
 
 
-設定好之後，按下 Configure 按鈕，選擇編譯器版本，我選  `Visual Studio 14 2015 Win64`，再按下 Generate 產生專案檔。
+設定好之後，按下 Configure，選擇編譯器版本 `Visual Studio 14 2015 Win64`，再按下 Generate ，然後按下 Open Project 應該就會打開 Visual Studio ，可以開始編程式了。
 
-如果在 build 目錄下看見 `OGREDEPS.sln` 就代表你成功了，用 VS 打開來分別把 debug/release 都編譯過一次。接著**很重要**的一點，全部編譯完之後，還要特別單獨建置一次 INSTALL 專案，debug/release 都要，這樣外部依賴庫的編譯才算完成。
+**很重要**記得一點，除了跑 ALL_BUILD 之外，還要一次 INSTALL 專案，debug/release 都要，這樣外部依賴庫的編譯才算完成。
 
-## 五、下載 Ogre 源碼
+## 編譯 Ogre3D 引擎
 
 跟剛剛下載外部依賴庫一樣，Ogre 源碼倉庫位於 [https://bitbucket.org/sinbad/ogre](https://bitbucket.org/sinbad/ogre)
 
 
-    hg clone https://bitbucket.org/sinbad/ogre C:/OgreSDK/Ogre -r v2-1
+    hg clone  C:/OgreSDK/Ogre -r v2-1
 
 剛抓下來時的代碼是在 default 分支，是 1.10 版本的代碼，而非我們想要的最新版 2.1，所以要自己手動切換到 `v2-1` branch。
 
