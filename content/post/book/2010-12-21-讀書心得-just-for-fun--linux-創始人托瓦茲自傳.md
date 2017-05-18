@@ -8,7 +8,7 @@ slug: "2010-12-21-just-for-fun-linux-review"
 
 <a href="http://www.anobii.com/books/Just_for_Fun/9789574761234/0163a0d1f1ef6809f2/" title="More about Just for Fun"><img alt="More about Just for Fun" src="http://image.anobii.com/anobi/image_book.php?type=5&amp;item_id=0163a0d1f1ef6809f2&amp;time=0" title="More about Just for Fun" class="left" /></a>
 
-## 不平凡的平凡人 ##
+## 不平凡的平凡人
 
 我想對此書有興趣的人，大多想瞭解兩個問題
 

@@ -1,20 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  
+    <base href="{{ .Site.BaseURL }}">
+    <title>{{ .Site.Title }}</title>
+    <link rel="canonical" href="{{ .Permalink }}">
+    <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 
-{{ partial "header" . }}
-{{ partial "nav" . }}
-<section class="section">
+    {{ partial "head_includes.html" . }}
+</head>
+<body>
+
+{{ partial "header.html" . }}
+
+<section id="main">
+<div class="flex-center">
   <div class="container">
-    <h1 class="title">{{ .Title }}</h1>
-    <h2 class="subtitle is-5">{{ .Date.Format "January 2, 2006" }} {{ if (ne ($.Param "displayauthor") false) }}by {{ .Params.author | default .Site.Params.author }}{{ end }}</h2>
-    {{ if .Params.tags }}
-      {{ partial "tags" .Params.tags }}
-    {{ end }}
-    <div class="content">
-      {{ .Content }}
+
+    <br><br>
+    <article id="the-article">
+        <h2 class="post-title">{{ .Title }}</h2>
+
+        <div style="color:#585860; font-family: Menlo, Consolas, Courier, monospace; margin-top: 10px;">
+			{{ .Page.Date.Format "2006-01-02" }} | 
+            
+            {{ range .Page.Params.tags }}
+                <a class="post-tag" href="/tags/{{ . | urlize }}">{{ . }}</a>
+            {{ end }}
+            
+        </div>
+        <div style="margin-top: 20px;">
+        {{ .Content }}
+        </div>
+    </article>
+
+    <div style="padding-top: 40px;">
+    {{ template "_internal/disqus.html" . }}
     </div>
-    {{ if (ne ($.Param "sharingicons") false) }}
-    {{ partial "sharing.html" . }}
-    {{ end }}
   </div>
+</div>
 </section>
-{{ partial "disqus" . }}
-{{ partial "footer" . }}
+
+{{ partial "footer.html" . }}
+
+{{ template "_internal/google_analytics.html" . }}
+</body>
+</html>

@@ -3,6 +3,7 @@ date: 2017-05-07
 title: 在 Windows 上編譯 Ogre 2.1
 draft: false
 isCJKLanguage: true
+tags: [ Ogre ]
 ---
 本文紀錄我在 Windows 上編譯 Ogre 2.1 的步驟。
 
@@ -51,7 +52,6 @@ CMake 是一套跨平台專案建構工具，我用的版本是 [CMake 3.7.0][0]
 - 按 **Configure**，選擇編譯器版本 `Visual Studio 14 2015 Win64`
 - 再按下 **Generate** ，產生 VS 專案檔
 - 最後按 **Open Project** 就會打開產生好的 Visual Studio solution
-
 - 打開 Visual Studio 之後，編譯 **ALL_BUILD** 專案，Debug/Release 都要編譯
 - 接著編譯 **INSTALL** 專案，同樣 Debug/Release 都要編譯
 - 都沒錯誤的話，依賴庫的編譯就算完成，可以接著編譯引擎本體了。

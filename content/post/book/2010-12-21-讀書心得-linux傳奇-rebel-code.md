@@ -9,9 +9,9 @@ slug: "2010-12-21-rebel-code-review"
 
 <a href="http://www.anobii.com/books/Linux_%E5%82%B3%E5%A5%87/9789571333632/01703e4119ee4f88ab/" class="book-cover" title="More about Linux 傳奇"><img alt="More about Linux 傳奇" src="http://image.anobii.com/anobi/image_book.php?type=5&amp;item_id=01703e4119ee4f88ab&amp;time=0" title="More about Linux 傳奇" class="left" /></a>
 
-## 報導文學的傑作 ##
+## 報導文學的傑作
 
-回想上一次令我讀後內心激動不已的報導文學，已是四五年前的『宇宙的寂寞心靈』。這兩本書的共同點就是主軸是科學技術，但是述說的卻是這個行業中的**人**的故事，深刻描寫人性的故事。技術是冰冷的，但是走在大時代洪流中的人，卻各個有血有肉。
+回想上一次令我內心激動不已的報導文學，已是四五年前的『宇宙的寂寞心靈』。這兩本書的共同點就是主軸是科學技術，但是述說的卻是這個行業中的**人**的故事，深刻描寫人性的故事。技術是冰冷的，但是走在大時代洪流中的人，卻各個有血有肉。
 
 原文書名叫做『Rebel Code』，直譯叫『叛碼』，副標題則是 Linux And The Open Source Revolution (Linux 與開源革命)，在此吐槽一下糟糕的中文譯名，副標題比爾蓋茲云云可說完全搞錯方向。這個書名非常有意思，因為這兒 Code 是個雙關，表面意思是代碼，背面意思是法典。恰恰代表了本書描寫的兩個對象，以 Linux 為首顛覆傳統開發方式大獲成功的開源軟體，以及一群奔放不羈、充滿理想的平凡人，運用自己的力量搖動世界成為典範的故事。
 
