@@ -22,14 +22,12 @@
 
     <br>
     <ul class="post-list">
-		{{ range $name, $page := .Site.Pages }}
-		{{ if eq .Type "post" }}
+		{{ range $name, $page := where .Data.Pages "Section" "post" }}
       <li>
         <time datetime="{{ $page.Date.Format "2006-01-02" }}">{{ $page.Date.Format "2006-01-02" }}</time>
          &nbsp;&nbsp;
         <a href="{{ .Permalink }}">{{ $page.Title }}</a>
       </li>
-    {{ end }}
     {{ end }}
     </ul>
   </div>

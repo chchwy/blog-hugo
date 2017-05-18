@@ -1,7 +1,7 @@
 ---
 date: 2010-12-21
 title: "讀書心得 - Just for Fun, Linux 創始人托瓦茲自傳"
-tags: [ Book, Linux ]
+tags: [讀書, Linux]
 isCJKLanguage: true
 slug: "2010-12-21-just-for-fun-linux-review"
 ---
