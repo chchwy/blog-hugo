@@ -1,1 +1,1 @@
-my blog  <http://chchwy.github.io>
+my blog:  <http://chchwy.github.io>
