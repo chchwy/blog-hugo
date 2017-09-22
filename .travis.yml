@@ -12,12 +12,6 @@ branches:
   only:
     - master
 
-env:
-  global:
-    - SOURCE_DIR="public"
-    - BUILD_BRANCH="source"
-    - DEPLOY_BRANCH="master"
-
 install:
   - rm -rf public || exit 0
   - go get -u -v github.com/spf13/hugo
