@@ -1,9 +1,8 @@
 ---
 date: 2017-05-07
 title: 在 Windows 上編譯 Ogre 2.1
-draft: false
 isCJKLanguage: true
-tags: [ Ogre ]
+tags: [Ogre]
 ---
 本文紀錄我在 Windows 上編譯 Ogre 2.1 的步驟。
 

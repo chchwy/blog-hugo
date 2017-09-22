@@ -1,7 +1,7 @@
 ---
 date: "2015-06-20"
 title: "客製化 Visual C++ clean project 的行為"
-tags: [ "Visual Studio" ]
+tags: ["Visual Studio", C++]
 isCJKLanguage: true
 ---
 

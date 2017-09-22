@@ -5,7 +5,7 @@ Tags: [Games, 翻譯]
 isCJKLanguage: true
 ---
 
-[原始網頁: How Nvidia plan to be the Netflix of Gaming](http://www.technologyreview.com/news/535676/how-nvidia-plans-to-be-the-netflix-of-gaming/)
+[原連結: How Nvidia plan to be the Netflix of Gaming](http://www.technologyreview.com/news/535676/how-nvidia-plans-to-be-the-netflix-of-gaming/)
 
 
 ### 副標: Nvidia shield 遊戲主機採取一系列手段降低遊戲延遲

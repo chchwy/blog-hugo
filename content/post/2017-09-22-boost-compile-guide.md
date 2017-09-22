@@ -2,13 +2,13 @@
 date: 2017-09-22
 title: Boost 極簡編譯法
 isCJKLanguage: true
-tags: [ Boost, C++ ]
+tags: [Boost, C++]
 ---
 
-最近工作上需要用到 Boost 這套著名的 C++ Library。Boost 大多數的模組都是 header-only，但是依然有少數的模組需要先編譯才能使用。在這裡就紀錄一下編譯 Boost 的方法。
+最近工作上需要用到 Boost 這套著名的 C++ Library。Boost 大多數的模組都是 header-only，但是依然有少數的模組需要先編譯才能使用。這裡就紀錄一下編譯 Boost 的方法。
 
 - 第一步，雙擊執行根目錄下的 bootstrap.bat，產生 Boost 自帶的編譯工具 b2.exe 和 bjam.exe
-- 第二步，用 b2 來編譯 boost 指令如下：
+- 第二步，用 b2 來編譯 boost，指令如下：
 
 ```
     b2 toolset=msvc-14.0 address-model=64 --with-system

@@ -22,10 +22,11 @@
 
     <br><br>
     <article id="the-article">
-        <h2 class="post-title">{{ .Title }}</h2>
-
-        <div style="color:#585860; font-family: Menlo, Consolas, Courier, monospace; margin-top: 10px;">
-			{{ .Page.Date.Format "2006-01-02" }} | 
+        <h1 class="post-title">{{ .Title }}</h2>
+        
+        <div style="color:#988F9B; font-family: Menlo, Consolas, Courier, monospace; margin-top: 18px;">
+            By <a href="/about">Matt</a> |
+            {{ .Page.Date.Format "2006-01-02" }} | 
             
             {{ range .Page.Params.tags }}
                 <a class="post-tag" href="/tags/{{ . | urlize }}">{{ . }}</a>
@@ -37,7 +38,9 @@
         </div>
     </article>
 
-    <div style="padding-top: 40px;">
+    {{ partial "related.html" . }}
+
+    <div style="padding-top: 3em;">
     {{ template "_internal/disqus.html" . }}
     </div>
   </div>

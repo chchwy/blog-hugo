@@ -1,6 +1,7 @@
 ---
 date: "2016-03-08"
 title: ACM-IO-Redirection
+tags: [C++, UVa Oneline Judge]
 draft: true
 isCJKLanguage: true
 ---
