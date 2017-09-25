@@ -6,9 +6,9 @@ tags: [Ogre]
 ---
 本文紀錄我在 Windows 上編譯 Ogre 2.1 的步驟。
 
-Ogre 2.1 版跟之前的 1.x 版有比較大的差別，不管效能還是視覺方面都有顯著的提昇，架構也改變不少，而且官網上沒有預編譯好的 SDK，所以要使用 2.1 版就非得自己從源碼開始編譯不可。另外這篇是 Windows 平台，之後會另寫一篇說明 iOS 平台。
+Ogre 2.1 版與 1.x 版相比不管效能還是視覺都有比較大的提昇。目前官網上沒有預編譯好的 2.1 SDK，所以要用 2.1 版就得自己從源碼編譯。
 
-用到的環境與工具如下：
+環境如下：
 
 - 作業系統 Windows 10 Home
 - 編譯器 Visual Studio 2015 Community
@@ -17,7 +17,7 @@ Ogre 2.1 版跟之前的 1.x 版有比較大的差別，不管效能還是視覺
 
 ## 下載 Source code
 
-首先需要下載兩份 source code，分別是 Ogre3D 引擎本體以及第三方依賴庫，Ogre3D 用的是一個比較少見版本控制系統 hg，而非常見的 git，不熟悉 hg 的話可以直接用 [SourceTree][sourcetree] 這套 hg/git 通吃的版本控制軟體來抓原始碼。
+首先下載兩份 source code，分別是 Ogre3D 引擎本體以及第三方依賴庫，Ogre3D 用的是一個比較少見版本控制系統 hg，而非常見的 git，不熟悉 hg 的話可以直接用 [SourceTree][sourcetree] 這套 hg/git 通吃的版本控制軟體來抓原始碼。
 
 Repo 倉庫路徑如下：
 
