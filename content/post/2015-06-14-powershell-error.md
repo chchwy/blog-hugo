@@ -1,6 +1,6 @@
 ---
 date: "2015-06-14"
-title: "「Powershell 檔案無法載入，因為這個系統上已停用指令碼執行」"
+title: "Powershell「因為這個系統上已停用指令碼執行，所以無法載入」"
 tags: [PowerShell]
 isCJKLanguage: true
 ---
