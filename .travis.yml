@@ -13,8 +13,7 @@ branches:
 addons:
   apt:
     sources:
-      - ubuntu-sdk-team
-      - trusty-media
+      - artful
     packages:
       - hugo
 
