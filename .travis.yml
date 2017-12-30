@@ -13,7 +13,7 @@ branches:
 addons:
   apt:
     sources:
-      - artful
+      - sourceline: 'ppa:rikmills/artful'
     packages:
       - hugo
 
