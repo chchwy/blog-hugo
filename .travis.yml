@@ -21,7 +21,7 @@ addons:
       - snap
 
 install:
-  - snap install hugo
+  - sudo snap install hugo
   - rm -rf public || exit 0
 
 script:
