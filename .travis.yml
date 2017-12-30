@@ -16,10 +16,9 @@ addons:
       - ubuntu-sdk-team
       - trusty-media
     packages:
-      - snap
+      - hugo
 
 install:
-  - sudo snap install hugo
   - rm -rf public || exit 0
 
 script:
