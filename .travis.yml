@@ -10,14 +10,8 @@ branches:
   only:
     - master
 
-addons:
-  apt:
-    sources:
-      - sourceline: 'ppa:rikmills/artful'
-    packages:
-      - hugo
-
 install:
+  - go get -v github.com/gohugoio/hugo
   - rm -rf public || exit 0
 
 script:
