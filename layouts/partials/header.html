@@ -1,11 +1,22 @@
 <div class="flex-center">
   <div class="container">
     <section id="header">
-      <div style="">
-            <a href="{{ .Site.BaseURL }}" style="color:#333;">
+      <div style="float:left">
+            <a href="{{ .Site.BaseURL }}">
                 <h1 class="site-name">{{ .Site.Title }}</h1>
             </a>
       </div>
+      <nav>
+        <ul>
+          <li><a>Home</a></li>
+          <li>|</li>
+          <li></li><a>Archive</a></li>
+          <li>|</li>
+          <li></li><a>About</a></li>
+          </ul>
+      </nav>
+      <div style="clear:both"></div>
     </section>
+    <hr>
   </div>
 </div>
