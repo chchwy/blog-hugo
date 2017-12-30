@@ -11,12 +11,9 @@ git:
 branches:
   only:
     - master
-addons:
-  apt:
-    packages:
-      - hugo
 
 install:
+  - snap install hugo
   - rm -rf public || exit 0
 
 script:
