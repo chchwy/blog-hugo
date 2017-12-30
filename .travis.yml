@@ -12,6 +12,14 @@ branches:
   only:
     - master
 
+addons:
+  apt:
+    sources:
+      - ubuntu-sdk-team
+      - trusty-media
+    packages:
+      - snap
+
 install:
   - snap install hugo
   - rm -rf public || exit 0
