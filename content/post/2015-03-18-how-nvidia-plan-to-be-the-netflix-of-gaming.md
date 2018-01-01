@@ -5,9 +5,6 @@ Tags: [Games, 翻譯]
 isCJKLanguage: true
 ---
 
-[原連結: How Nvidia plan to be the Netflix of Gaming](http://www.technologyreview.com/news/535676/how-nvidia-plans-to-be-the-netflix-of-gaming/)
-
-
 ### 副標: Nvidia shield 遊戲主機採取一系列手段降低遊戲延遲
 
 Nvidia’s Shield console uses a range of tricks to reduce latency during game play.
@@ -16,11 +13,11 @@ Nvidia’s Shield console uses a range of tricks to reduce latency during game p
 
 In an age where songs and movies are routinely streamed online, the chip maker Nvidia believes it has cracked a major technical problem that has limited streaming for video games.
 
-在這個已經慣於線上串流聽歌和看電影的時代，晶片商 Nvidia 相信它們已經被突破了用串流方式玩電動遊戲的主要技術限制。
+在這個已經慣於線上串流聽歌和看電影的時代，晶片商 Nvidia 相信它們已經突破了用串流方式打電動遊戲的主要技術限制。
 
 Game consoles are hugely popular, but they rely on data stored on DVDs and computer hardware that can quickly become outdated. Nvidia’s new entertainment system, called Shield, uses several hardware and software tricks to deliver games run on remote supercomputers with as little latency as possible, theoretically eliminating the need for owners to buy a new, more powerful version of the console every few years.
 
-遊戲主機廣受大家歡迎，但是主機仰賴的保存於 DVD 上的資料和硬體設備卻很容易過時。這個名叫「Shield」的 Nvidia 的新型娛樂系統，採取了數種軟硬體手段，想盡辦法在最短的延遲下，遞送運行在遠端的超級電腦上的遊戲。理論上避免了玩家每隔一兩年就要重買一台新的，運算能力更強的遊戲主機的必要。
+遊戲主機廣受大家歡迎，但是主機仰賴的 DVD 資料和硬體設備卻很容易過時。這個名叫「Shield」的 Nvidia 的新型娛樂系統，採取了數種軟硬體手段，想盡辦法在最短的延遲下，遞送運行在遠端超級電腦上的遊戲。理論上避免了玩家每隔一兩年就要重買一台新的、運算能力更強的遊戲主機的必要。
 
 At a press conference at the Game Developers Conference in San Francisco this week, Nvidia’s CEO, Jen-Hsun Huang, claimed that Shield goes further than anything else to speed up games streamed at high resolution. “From the point at which I click a button to the moment that input is rendered on screen is less than 150 milliseconds,” he said. That would be similar to the performance of a PlayStation or Xbox playing a game on a DVD.
 
@@ -56,3 +53,5 @@ Nvidia 本身並不為這個串流服務創造新遊戲，但是這個服務一�
 
 (全文完)
 (譯註：練習英文用)
+
+[原文連結: How Nvidia plan to be the Netflix of Gaming](http://www.technologyreview.com/news/535676/how-nvidia-plans-to-be-the-netflix-of-gaming/)
