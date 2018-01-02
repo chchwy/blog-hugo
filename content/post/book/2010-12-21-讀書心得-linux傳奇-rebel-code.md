@@ -6,7 +6,7 @@ isCJKLanguage: true
 slug: "2010-12-21-rebel-code-review"
 ---
 
-<a href="http://www.anobii.com/books/Linux_%E5%82%B3%E5%A5%87/9789571333632/01703e4119ee4f88ab/" class="book-cover" title="More about Linux 傳奇"><img alt="More about Linux 傳奇" src="http://image.anobii.com/anobi/image_book.php?type=5&amp;item_id=01703e4119ee4f88ab&amp;time=0" title="More about Linux 傳奇" class="left" /></a>
+<img alt="More about Linux 傳奇" src="http://image.anobii.com/anobi/image_book.php?type=5&amp;item_id=01703e4119ee4f88ab&amp;time=0" title="More about Linux 傳奇" class="left" />
 
 ## 報導文學的傑作
 
