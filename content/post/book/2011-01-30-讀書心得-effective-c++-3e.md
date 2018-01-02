@@ -7,7 +7,7 @@ isCJKLanguage: true
 slug: "2011-01-30-effective-c-plusplus-3e"
 ---
 
-<a href="http://www.anobii.com/books/Effective_C_3e%E4%B8%AD%E6%96%87%E7%89%88/9789861543550/013a64b5e54ffd2279/" class="book-cover" title="More about Effective C++ 3/e中文版"><img alt="More about Effective C++ 3/e中文版" height="200" src="http://image.anobii.com/anobi/image_book.php?type=5&amp;item_id=013a64b5e54ffd2279&amp;time=1296528089" title="More about Effective C++ 3/e中文版" width="180" /></a>
+<img alt="More about Effective C++ 3/e中文版" height="200" src="http://image.anobii.com/anobi/image_book.php?type=5&amp;item_id=013a64b5e54ffd2279&amp;time=1296528089" title="More about Effective C++ 3/e中文版" width="180" />
 
 Effective C++第一章第一句話就清楚地說明了這本書的宗旨：『學習語言的根本大法是一回事，學習如何以某種語言設計並實現高效程序則是另外一回事』，這本書就是把初學者在 C++ 裡容易碰到的問題，還有容易犯錯的地方，整理成55個條款列出來。
 
