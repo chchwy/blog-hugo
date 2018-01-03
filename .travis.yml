@@ -20,6 +20,7 @@ install:
   - rm -rf public || exit 0
 
 script:
+  - hugo version
   - hugo
 
 deploy:
