@@ -7,3 +7,4 @@ googleAnalytics: "UA-5266256-5"
 
 pygmentsOptions: [noclasses]
 pygmentsCodefences: true
+pygmentsStyle: "friendly"
