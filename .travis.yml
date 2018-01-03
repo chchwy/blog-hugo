@@ -10,6 +10,11 @@ branches:
   only:
     - master
 
+addons:
+  apt:
+    packages:
+      - python-pygments
+
 install:
   - go get -v github.com/gohugoio/hugo
   - rm -rf public || exit 0
