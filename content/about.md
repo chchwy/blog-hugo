@@ -2,6 +2,7 @@
 date: "1984-01-01"
 title: About me
 showtags: "good"
+type: "static_page"
 ---
 
 Hi, 我是 Matt (chchwy)，軟體工程師。
