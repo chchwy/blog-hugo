@@ -1,7 +1,7 @@
 language: go
 
 go:
-  - 1.8
+  - 1.9
 
 git:
   depth: 3
@@ -10,13 +10,8 @@ branches:
   only:
     - master
 
-addons:
-  apt:
-    packages:
-      - python-pygments
-
 install:
-  - go get -v github.com/gohugoio/hugo
+  - go get -u -v github.com/gohugoio/hugo
   - rm -rf public || exit 0
 
 script:
