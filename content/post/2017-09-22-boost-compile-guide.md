@@ -5,7 +5,7 @@ isCJKLanguage: true
 tags: [Boost, C++]
 ---
 
-最近因為工作的緣故需要編譯 `Boost`。Boost 這套大名鼎鼎的 C++ Library 中，大多數模組都是 header-only，意思是模組裡只有標頭檔(*.hpp)，沒有實現檔(*.cpp)，所以不需要編譯，直接引入(#include)就可以用。但是依然有部份模組需要先編譯，這裡紀錄一下編譯 Boost 的方法。
+最近因為工作的緣故需要編譯 `Boost`。Boost 這套大名鼎鼎的 C++ Library 中，大多數模組都是 header-only，意思是模組裡只有標頭檔(`*.hpp`) 沒有實現檔(`*.cpp`)，所以不需要編譯，直接引入(#include)就可以用。但是依然有部份模組需要先編譯，這裡紀錄一下編譯 Boost 的方法。
 
 環境: Windows 10 編譯器: Visual Studio 2015
 
@@ -13,7 +13,7 @@ tags: [Boost, C++]
 - 第二步，用 b2 來編譯 boost，指令如下：
 
 ```
-    b2 toolset=msvc-14.0 address-model=64 --with-system
+b2 toolset=msvc-14.0 address-model=64 --with-system
 ```
 
 - 我並沒有深究 b2 和 bjam 到底有什麼差異，我個人就是用 b2
