@@ -27,11 +27,9 @@ Hi, 我是 Matt (chchwy)，軟體工程師。
 [0]: http://pencil2d.org "Pencil2D"
 [1]: http://github.com/pencil2d/pencil "Pencil2D development"
 
-## FAQ
+# 其他
 
-- 最愛的書: 《別鬧了，費曼先生》
-- 心目中的經典遊戲: Age of Empire II (世紀帝國二) 以及 《X-COM: 深海出擊》
-- 偶像: Tim Duncan
-- 愛吃: 高麗菜
-- 喜歡的漫畫: 神劍闖江湖、純情房東俏房客、棋靈王、交響情人夢
-- 興趣: 鋼琴、打電動、圍棋
+- 最愛的書是 《別鬧了，費曼先生》
+- 心目中的經典遊戲是 Age of Empire II (世紀帝國二) 以及 《X-COM: 深海出擊》
+- Tim Duncan 最高，多年馬刺迷
+- 喜愛的漫畫： 神劍闖江湖、純情房東俏房客、棋靈王、交響情人夢
