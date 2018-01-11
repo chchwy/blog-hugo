@@ -24,14 +24,7 @@
       <section>
         <h1 class="post-title">{{ .Title }}</h1>
       </section>
-      <section style="color:#988F9B; font-family: Menlo, Consolas, Courier, monospace; margin-top: 18px;">
-        By <a href="/about">Matt</a> |
-        {{ .Page.Date.Format "2006-01-02" }} | 
-        
-        {{ range .Page.Params.tags }}
-            <a class="post-tag" href="/tags/{{ . | urlize }}">{{ . }}</a>
-        {{ end }}
-      </section>
+
       <section style="margin-top: 30px;">
         {{ .Content }}
       </section>
@@ -40,6 +33,7 @@
     <div style="padding-top: 3em;">
     {{ template "_internal/disqus.html" . }}
     </div>
+
   </div>
 </div>
 </div>
