@@ -8,10 +8,12 @@ type: "static_page"
 Hi, 我是 Matt (chchwy)，軟體工程師。
 歡迎來到我 BLOG，這裡記錄著我的思考、讀書心得和技術筆記。
 
-[<i class="fa fa-github fa-fw"></i> Github](http://github.com/chchwy) |
-[<i class="fa fa-twitter fa-fw"></i>Twitter](http://twitter.com/chchwy) |
-[<i class="fa fa-pinterest fa-fw"></i>Plurk](http://www.plurk.com/chchwy) |
-[<i class="fa fa-book fa-fw"></i>Readmoo書櫃](https://share.readmoo.com/mooer/lljhmaqnn/bookshelf/chchwy/total)
+## 關注我
+
+- [ Github](http://github.com/chchwy)
+- [Twitter](http://twitter.com/chchwy)
+- [Plurk](http://www.plurk.com/chchwy)
+- [Readmoo書櫃](https://share.readmoo.com/mooer/lljhmaqnn/bookshelf/chchwy/total)
 
 ## 開源項目
 
