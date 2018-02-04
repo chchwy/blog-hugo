@@ -13,6 +13,9 @@ Hi, 我是 Matt (chchwy)，軟體工程師。
 - 多年馬刺迷，Tim Duncan 的忠實粉絲
 - 喜愛的漫畫： 神劍闖江湖、純情房東俏房客、棋靈王、交響情人夢
 
+[Github](http://github.com/chchwy) |
+[Plurk](http://www.plurk.com/chchwy) | [Readmoo書櫃](https://share.readmoo.com/mooer/lljhmaqnn/bookshelf/chchwy/total)
+
 ## 開源項目
 
 我從 2013 年開始成為開源軟體 [Pencil2D][0] 的主力開發。
@@ -31,8 +34,3 @@ Pencil2D 的設計初衷是簡單，不需要太多學習，5分鐘之內就可�
 [1]: http://github.com/pencil2d/pencil "Pencil2D development"
 
 
-## 關注我
-
-- [Github](http://github.com/chchwy)
-- [Plurk](http://www.plurk.com/chchwy)
-- [Readmoo書櫃](https://share.readmoo.com/mooer/lljhmaqnn/bookshelf/chchwy/total)
