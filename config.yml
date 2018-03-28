@@ -5,6 +5,6 @@ title: "Matt - 調和的靈感"
 disqusShortname: "chchwy"
 googleAnalytics: "UA-5266256-5" 
 
-pygmentsOptions: [noclasses]
+pygmentsOptions: []
+pygmentsUseClasses: true
 pygmentsCodefences: true
-pygmentsStyle: "friendly"
