@@ -11,10 +11,13 @@ branches:
     - master
 
 install:
-  - sudo apt-get install hugo
+  - wget https://github.com/gohugoio/hugo/releases/download/v0.49/hugo_0.49_Linux-64bit.deb
+  - sudo dpkg -i hugo_0.49_Linux-64bit
+  - rm hugo_0.49_Linux-64bit.deb
   - rm -rf public || exit 0
 
 script:
+  - which hugo
   - hugo version
   - hugo
 
