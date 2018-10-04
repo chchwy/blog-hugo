@@ -4,14 +4,14 @@ go:
   - 1.9
 
 git:
-  depth: 3
+  depth: 2
 
 branches:
   only:
     - master
 
 install:
-  - go get -u -v github.com/gohugoio/hugo
+  - sudo apt-get install hugo
   - rm -rf public || exit 0
 
 script:
