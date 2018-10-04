@@ -23,4 +23,4 @@ b2 toolset=msvc-14.0 address-model=64 --with-system
 - 或者用 `-a` 要求編譯全部模組。編譯全部模組需要不少時間，我編了 15 分鐘發現還沒完成就放棄了。
 - 產出的 lib 檔默認放在 **stage/lib** 目錄下，瞄一眼裡面的檔案，如果看見 `libboost_chrono-vc140-mt-1_61.lib` 之類的檔案冒出來就是編譯成功了。以該檔名為例，可以得知我們成功編譯了 chrono 模組，適用編譯器 vc140，boost 版本 1.61。
 
-接著把把 boost 的根目錄加進 Include Path，把 /stage/lib 加進 Library Search Path，應該就可以順利使用我們編譯的 boost 模組了。跟其他第三方庫的差異，是不需要一一指名每個用到的 lib 檔，挺方便的。
+接著把把 boost 的根目錄加進 Include Path，把 /stage/lib 加進 Library Search Path，應該就可以順利使用我們自己編譯的 boost 了。不需要一一指名每個用到的 lib 檔，挺方便的。
