@@ -4,6 +4,7 @@ title: 完成 Codecademy 的 Python 課程
 tags: [Python, Codecademy]
 isCJKLanguage: true
 ---
+
 其實已經完成一陣子了(茶)
 
 很久以前就想要學 Python 了，但是因為沒有明確的目標，所以雖然讀完了 [Dive into Python 3][1] ，學了一些語法，依然未脫離 Python 門外漢的狀態。後來發現 Codecademy 的 [Python][2] 課程，一試之下覺得非常順手，就每天撥出半小時，用兩個月左右的時間把課程做完了。
