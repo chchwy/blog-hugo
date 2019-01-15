@@ -1,6 +1,7 @@
 ---
 date: 2007-11-24
 title: 十進位轉二進位
+isCJKLanguage: true
 tags: [C++]
 ---
 
