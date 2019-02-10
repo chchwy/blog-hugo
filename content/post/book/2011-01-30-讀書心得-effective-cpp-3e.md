@@ -1,6 +1,6 @@
 ---
 date: 2011-01-30
-title: "讀書心得 - Effective C++ 3/e"
+title: "讀書心得: Effective C++ 3/e"
 tags: [讀書,C++]
 draft: true
 isCJKLanguage: true

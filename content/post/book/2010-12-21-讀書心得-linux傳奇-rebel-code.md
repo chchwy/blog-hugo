@@ -1,6 +1,6 @@
 ---
 date: 2010-12-21
-title: "讀書心得 - Linux 傳奇 (Rebel Code)"
+title: "讀書心得: Linux 傳奇 (Rebel Code)"
 tags: [Linux,讀書]
 isCJKLanguage: true
 slug: "2010-12-21-rebel-code-review"
