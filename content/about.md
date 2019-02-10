@@ -8,9 +8,10 @@ type: "static_page"
 Hi, 我是 Matt (chchwy)，軟體工程師。
 歡迎來到我 BLOG，這裡記錄著我的思考、讀書心得和技術筆記。
 
-## 關注我
-
-[Github](http://github.com/chchwy) | [Readmoo書櫃](https://share.readmoo.com/mooer/lljhmaqnn/bookshelf/chchwy/total)
+- 最愛的書是 《別鬧了，費曼先生》
+- 心目中的經典遊戲是 Age of Empire II (世紀帝國二) 以及 《X-COM: 深海出擊》
+- 多年馬刺迷，Tim Duncan 的忠實粉絲
+- 喜愛的漫畫： 神劍闖江湖 (浪客劍心)、純情房東俏房客、棋靈王、交響情人夢
 
 ## 開源項目
 
@@ -29,12 +30,10 @@ Pencil2D 的設計初衷是簡單，不需要太多學習，5分鐘之內就可�
 [0]: http://pencil2d.github.io "Pencil2D"
 [1]: http://github.com/pencil2d/pencil "Pencil2D development"
 
-## 其他
+## 關注我
 
-- 最愛的書是 《別鬧了，費曼先生》
-- 心目中的經典遊戲是 Age of Empire II (世紀帝國二) 以及 《X-COM: 深海出擊》
-- 多年馬刺迷，Tim Duncan 的忠實粉絲
-- 喜愛的漫畫： 神劍闖江湖 (浪客劍心)、純情房東俏房客、棋靈王、交響情人夢
+[Github](http://github.com/chchwy) | [Readmoo書櫃](https://share.readmoo.com/mooer/lljhmaqnn/bookshelf/chchwy/total)
+
 
 
 
