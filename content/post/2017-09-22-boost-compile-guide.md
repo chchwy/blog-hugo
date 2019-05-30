@@ -5,7 +5,7 @@ isCJKLanguage: true
 tags: [Boost, C++]
 ---
 
-最近因為工作的緣故需要編譯 `Boost`。在 Boost 這套大名鼎鼎的 C++ Library 中的大多數模組都是 header-only，意思是模組裡只有標頭檔(`*.hpp`) 沒有實現檔(`*.cpp`)，所以不需要編譯，直接引入(#include)標頭檔就可以用了。但是依然有部份模組需要先編譯，這裡紀錄一下編譯 Boost 的方法。
+最近因為工作的緣故需要編譯 `Boost`。Boost 這套大名鼎鼎的 C++ Library 中，大多數的模組都是 header-only，意思是模組裡只有標頭檔(`*.hpp`) 沒有實現檔(`*.cpp`)，所以不需要編譯，引入(#include)標頭檔就可以直接用了。只有少部份模組需要先編譯，這裡紀錄一下編譯 Boost 的方法。
 
 環境: Windows 10 編譯器: Visual Studio 2015
 
