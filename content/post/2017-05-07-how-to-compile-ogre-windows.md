@@ -2,7 +2,7 @@
 date: 2017-05-07
 title: 在 Windows 上編譯 Ogre 2.1
 isCJKLanguage: true
-tags: [Ogre]
+tags: [Ogre3D]
 ---
 本文紀錄我在 Windows 10 上編譯 Ogre 2.1 的方法跟步驟。
 
@@ -14,7 +14,7 @@ Ogre 2.1 不管在效能還是視覺方面，跟 1.x 版相比都有明顯的提
 
 - 作業系統 Windows 10 Home
 - 編譯器 Visual Studio 2019 Community
-- 版本控制系統 hg 
+- 版本控制系統 hg
 - 建構系統 CMake 3.14
 
 ## 下載 Source code
@@ -46,7 +46,7 @@ CMake 本身不能直接編譯 Ogre。它的運作方式是將一個各平台通
 依賴函式庫裡面包含 Ogre3D 採用的所有第三方函式庫。要編譯依賴函式庫，先打開 **CMake-GUI**。
 
 - **Where is the source code:** 填 ogredeps 的源碼位置
-- **Where to build the binaries:** 按照慣例，源碼下加一層 build 子目錄 
+- **Where to build the binaries:** 按照慣例，源碼下加一層 build 子目錄
 
 ![ogredeps](/img/cmake-ogredeps.png)
 
@@ -65,7 +65,7 @@ CMake 本身不能直接編譯 Ogre。它的運作方式是將一個各平台通
 
 - 跟編譯依賴庫一樣，打開 CMake GUI
 - **Where is the source code:** 填 ogre 的源碼位置
-- **Where to build the binaries:** 同樣往下加一層子目錄 build 
+- **Where to build the binaries:** 同樣往下加一層子目錄 build
 
 ![](/img/cmake-ogre3d.png)
 
@@ -83,7 +83,7 @@ CMake 本身不能直接編譯 Ogre。它的運作方式是將一個各平台通
 - 再 Congifure 一次，應該就沒有錯誤訊息了
 - 按下 Generate 產生 Ogre.sln
 - Open Project 打開 Visual studio 專案檔
-- 編譯 **ALL_BUILD** 專案，Debug/Release都要 
+- 編譯 **ALL_BUILD** 專案，Debug/Release都要
 - 編譯 **INSTALL** 專案，同樣 Debug/Release都要
 - 到此為止全部完成，挑選任一 Sample 執行即可
 
