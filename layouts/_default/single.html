@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  
+
     <base href="{{ .Site.BaseURL }}">
     <title>{{ .Site.Title }}</title>
     <link rel="canonical" href="{{ .Permalink }}">
@@ -22,15 +22,15 @@
 
     <article id="the-article">
         <h1 class="post-title">{{ .Title }}</h1>
-        
+
         <section style="color:#988F9B; font-family: Menlo, Consolas, Courier, monospace; margin-top: 18px;">
             By <a href="/about">Matt</a> |
-            {{ .Page.Date.Format "2006-01-02" }} | 
-            
+            {{ .Page.Date.Format "2006-01-02" }} |
+
             {{ range .Page.Params.tags }}
                 <a class="post-tag" href="/tags/{{ . | urlize }}">{{ . }}</a>
             {{ end }}
-            
+
         </section>
         <sction style="margin-top: 30px;">
         {{ .Content }}
