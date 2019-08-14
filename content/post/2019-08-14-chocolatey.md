@@ -75,6 +75,7 @@ choco install -y pandoc              # 強大的文件轉換工具
 choco install -y paint.net           # 免費強大的小畫家加強版
 choco install -y workflowy           # 條列式筆記工具
 choco install -y typora              # Markdown 寫作軟體
+choco install -y libreoffice-fresh   # LibreOffice 沒辦法，有時候還是要處理.docx
 choco install -y mp3tag              # MP3 標籤編輯
 choco install -y xnviewmp            # 看圖軟體
 choco install -y treesizefree        # TreeSize 追蹤硬碟空間使用
