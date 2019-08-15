@@ -46,7 +46,7 @@ choco list --local
 choco outdated
 ```
 
-更新所有的本機套件到最新版
+更新所有套件到最新版
 ```
 choco upgrade all
 ```
@@ -67,24 +67,24 @@ choco install -y vscode              # VS Code
 choco install -y notepadplusplus     # 老牌文字編輯器 Notepad++
 choco install -y tortoisegit         # 小烏龜 Git
 choco install -y git-fork            # 另一款輕巧的 git 圖形化工具
-choco install -y fluent-terminal     # 好看的 Windows 命令列工具
-choco install -y beyondcompare       # 超好用的 diff 工具
+choco install -y fluent-terminal     # 好看的 Windows 命令列
+choco install -y beyondcompare       # 超級好用的 diff/merge 工具
 choco install -y filezilla           # FTP 客戶端
 choco install -y foxitreader         # 我慣用的 PDF viewer
 choco install -y hugo                # 靜態博客產生器
 choco install -y pandoc              # 強大的文件轉換工具
-choco install -y paint.net           # 免費強大的小畫家加強版
+choco install -y paint.net           # 免費的小畫家強化版
 choco install -y workflowy           # 條列式筆記工具
 choco install -y typora              # Markdown 寫作軟體
 choco install -y libreoffice-fresh   # 沒辦法，有時候還是要處理.docx
 choco install -y mp3tag              # MP3 標籤編輯
-choco install -y treesizefree        # TreeSize 追蹤硬碟空間使用
+choco install -y treesizefree        # 追蹤硬碟空間使用
 choco install -y ccleaner            # 清理垃圾檔案
 choco install -y teamviewer          # Teamviewer 遠端桌面
+choco install -y 4k-video-downloader # 影片/音樂抓取
 choco install -y xnviewmp            # 看圖軟體
 choco install -y foobar2000          # 聽歌軟體
 choco install -y steam               # 娛樂軟體
-choco install -y 4k-video-downloader # 影片/音樂抓取
 ```
 
 只要跑一個 Powershell 腳本，就可以把這個清單上的軟體裝好了，升級版本也只要一個命令，異常方便。
