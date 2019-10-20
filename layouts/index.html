@@ -22,7 +22,7 @@
 
     <br>
     <ul class="post-list">
-		{{ range $name, $page := where .Data.Pages "Section" "post" }}
+		{{ range $name, $page := .Site.RegularPages }}
       <li>
         <time datetime="{{ $page.Date.Format "2006-01-02" }}">{{ $page.Date.Format "2006-01-02" }}</time>
          &nbsp;&nbsp;
