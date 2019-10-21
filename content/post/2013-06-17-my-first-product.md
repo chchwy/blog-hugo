@@ -1,6 +1,6 @@
 ---
 date: 2013-06-17
-title: 第一個 App 作品上架
+title: 第一支 iOS App 作品上架
 tags: [開發日常]
 isCJKLanguage: true
 ---
