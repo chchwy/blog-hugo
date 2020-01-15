@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-    <base href="{{ .Site.BaseURL }}">
-    <title>{{ .Site.Title }}</title>
-    <link rel="canonical" href="{{ .Permalink }}">
-    <link href="./index.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-
-    {{ partial "head_includes.html" . }}
+  <base href="{{ .Site.BaseURL }}">
+  <title>{{ .Site.Title }}</title>
+  <link rel="canonical" href="{{ .Permalink }}">
+  <link href="./index.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+  {{ partial "head_includes.html" . }}
 </head>
 <body>
 
@@ -19,20 +18,16 @@
 <section id="main">
 <div class="flex-center">
   <div class="container">
-
     <br>
     <h3>Tags: [{{ .Title }}]</h3>
     <ul class="post-list">
 		{{ range $name, $page := .Data.Pages }}
-        <li>
-            <time datetime="{{ $page.Date.Format "2006-01-02" }}">{{ $page.Date.Format "2006-01-02" }}</time>
-            &nbsp;&nbsp;
-            <a href="{{ .Permalink }}">{{ $page.Title }}</a>
-         </li>
-        {{ end }}
+      <li class="post-list-entry">
+        <time datetime="{{ $page.Date.Format "2006-01-02" }}">{{ $page.Date.Format "2006-01-02" }}</time>
+        <a href="{{ .Permalink }}">{{ $page.Title }}</a>
+      </li>
+    {{ end }}
     </ul>
-
-
   </div>
 </div>
 </section>

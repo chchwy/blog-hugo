@@ -28,17 +28,14 @@ blockquote { border-left-color: #666; }
     display:inline-block;
     padding: 0 2px;
 }
-.post-list {
-    margin-top: 0px;
-    padding-left: 0;
+.post-list {margin-top: 0px; padding-left: 0;}
+.post-list li {list-style:none; margin-bottom: 0.8em;}
+.post-list time {color: #777; font-family: Menlo, Monaco, Consolas, monospace; display:block; margin-right: 1rem;}
+@media screen and (min-width: 800px) {
+.post-list-entry {display:flex}
 }
-.post-list li {
-    list-style:none;
-    line-height: 2em;
-}
-.post-list time { color: #777; font-family: Menlo, Monaco, Consolas, monospace; }
-.post-title { font-weight: normal; }
-.left { float:left; margin-right: 20px; }
+.post-title {font-weight: normal;}
+.left {float:left; margin-right: 20px;}
 
 /* Background */ .chroma { color: #d0d0d0; background-color: #202020 }
 /* Error */ .chroma .err { color: #a61717; background-color: #e3d2d2 }
