@@ -2,10 +2,10 @@
 <br>
 <h3>相關文章</h3>
 <ul>
-  {{ range first 3 ( where ( where .Site.Pages.ByDate.Reverse ".Params.tags" "intersect" .Params.tags ) "Permalink" "!=" .Permalink ) }}
-    <li class="relatedPost">
-      <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a><br />
-      {{ .Description | markdownify }}
-    </li>
-  {{ end }}
+{{ range first 3 ( where ( where .Site.Pages.ByDate.Reverse ".Params.tags" "intersect" .Params.tags ) "Permalink" "!=" .Permalink ) }}
+  <li class="relatedPost">
+    <a href="{{ .RelPermalink }}">{{ .Title | markdownify }}</a><br />
+    {{ .Description | markdownify }}
+  </li>
+{{ end }}
 </ul>
