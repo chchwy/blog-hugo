@@ -3,6 +3,7 @@ date: 2020-01-22
 isCJKLanguage: true
 title: "我的英語學習方法(二) 單字篇"
 tags: [英語學習]
+draft: true
 ---
 
 第一篇，就從英文單字講起吧 (真是沒創意)。
